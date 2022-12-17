@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+}
+.ulhed{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    width: 1000px;
+    padding-left: 200px;
+    margin-top: 50px;
+}
+li{
+    list-style: none;
+    font-size: 19px
+}
+.registr{
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    width: 200px;
+    height: 30px;
+
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s;
+}
+.registr:hover{
+    background-position: right center;
+}
+.login{
+    text-decoration: none;
+    display: inline-block;
+    color:  black;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s; 
+}
+.login:hover{
+    background-position: right center;
+}
+.underline{
+    width: 940.6px;
+    height: 0px;
+    margin-left: 230px;
+    margin-top: 30px;
+
+    border: 1px solid #828282;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.ultex{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+.name{
+    position: absolute;
+    padding-left: 250px;
+    width: 150px;
+    top: 150px;
+
+    font-family: 'Gilroy-Bold';
+    font-size: 25px;
+
+
+    color: #070707;
+}
+.study{
+    position: absolute;
+    top: 150px;
+    padding-left: 560px;
+    font-family: 'Gilroy-Bold';
+    font-size: 25px;
+
+
+    color: #070707;
+}
+.che{
+    position: absolute;
+    left: 1030px;
+    top: 150px;
+    font-family: 'Gilroy-Bold';
+    font-size: 25px;
+
+
+    color: #070707;
+    transform: rotate(-90deg);
+}
+.main{
+    position: absolute;
+    top: 250px;
+    width: 500px;
+    left: 420px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+@media only screen and (max-width: 768px){
+    #wrap{
+        width: 95%;
+    }
+}

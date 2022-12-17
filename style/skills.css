@@ -1,0 +1,100 @@
+.toptext{
+    position: absolute;
+    left: 580px;
+
+    font-family: 'Gilroy-Bold';
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #070707;
+}
+.undertext{
+    position: absolute;
+    left: 600px;
+    top: 75px;
+
+    font-family: 'Gilroy-Bold';
+    font-size: 20px;
+    line-height: 42px;
+    text-align: center;
+
+    color: #070707;
+}
+.python{
+    position: absolute;
+    left: 150px;
+    right: 73.47%;
+    top: 250px;
+    bottom: 65.22%;
+
+    width: 200px;
+
+}
+.js{
+    position: absolute;
+    left: 500px;
+    right: 73.47%;
+    top: 240px;
+    bottom: 65.22%;
+
+    width: 400px;
+}
+.excel{
+    position: absolute;
+    left: 900px;
+    right: 73.47%;
+    top: 210px;
+    bottom: 65.22%;
+
+    width: 450px;
+}
+.group1{
+    position: absolute;
+    left: 170px;
+    right: 73.47%;
+    top: 500px;
+    bottom: 65.22%;
+
+}
+.group2{
+    position: absolute;
+    left: 1065px;
+    right: 73.47%;
+    top: 500px;
+    bottom: 65.22%;
+
+}
+.group3{
+    position: absolute;
+    left: 610px;
+    right: 73.47%;
+    top: 500px;
+    bottom: 65.22%;
+}
+.main{
+    text-decoration: none;
+    display: inline-block;
+    color:  black;
+    width: 200px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s; 
+    font-size: 10px;
+}
+.main:hover{
+    background-position: right center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}

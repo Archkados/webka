@@ -1,0 +1,120 @@
+
+.center{
+    position: absolute;
+    background: -webkit-linear-gradient(25deg, #FFBE0B, #FB5607, #FF006E, #8338EC, #3A86FF);
+    height: 60vh;
+    width: 400px;
+    left: 490px;
+    top: 170px;
+    border-radius: 25px;
+}
+.Toptext{
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    left: 610px;
+    top: 100px;
+}
+.Pass{
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    left: 70px;
+    top: 175px;
+    border-radius: 100px;
+    height: 5vh;
+    width: 250px;
+}
+.Mail{
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    left: 70px;
+    font-size: 15px;
+    top: 100px;
+    border-radius: 100px;
+    height: 5vh;
+    width: 250px;
+}
+
+
+.Login {
+    width: 50%;
+    height: 5vh;
+    float: left;
+    
+
+    background: transparent;
+    color: inherit;
+
+    font-family: Montserrat;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 12px;
+
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+
+    margin-top: 300px;
+    margin-left: 95px;
+}
+input {
+    width: 100%;
+    height: 40px;
+
+    padding-left: 10px;
+    margin-bottom: 20px;
+
+    background: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    font-size: 12px;
+    
+
+    
+}
+.bottom{
+    position: absolute;
+    top: 550px;
+    left: 630px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+.inst{
+    position: absolute;
+    top: 590px;
+    left: 640px;
+    text-decoration: none;
+
+}
+.main{
+    text-decoration: none;
+    display: inline-block;
+    color:  black;
+    width: 200px;
+    height: 40px;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 2px;
+    background-image: linear-gradient(to right, #9EEFE1 20, #4830F0 51%, #9EEFE1 100%);
+    background-size: 200% auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+    transition: .5s; 
+    font-size: 10px;
+}
+.main:hover{
+    background-position: right center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
